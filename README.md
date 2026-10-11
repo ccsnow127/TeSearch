@@ -1,4 +1,6 @@
-<h1 align="center">TeSearch</h1>
+<p align="center">
+  <img src="assets/tesearch_logo.png" alt="TeSearch" width="420">
+</p>
 
 <p align="center">
   <b>Quality–diversity evolutionary search for test suites that are strong <i>and</i> small</b> —
