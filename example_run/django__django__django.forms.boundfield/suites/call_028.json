@@ -1,0 +1,13 @@
+{
+ "call": 28,
+ "measured": true,
+ "error": null,
+ "size": 79,
+ "pass_rate": 1.0,
+ "green_size": 79,
+ "cov": 1.0,
+ "mut": 1.0,
+ "failing": {},
+ "uncovered": [],
+ "survivors": []
+}

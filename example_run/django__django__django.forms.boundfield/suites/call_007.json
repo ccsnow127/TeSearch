@@ -1,0 +1,19 @@
+{
+ "call": 7,
+ "measured": true,
+ "error": null,
+ "size": 20,
+ "pass_rate": 0.9,
+ "green_size": 18,
+ "cov": 0.9876,
+ "mut": 1.0,
+ "failing": {
+  "test_as_text_as_textarea_and_as_hidden": "assert \"render:prefi...-first_name'}\" == '<input type=...-first_name\">'",
+  "test_css_classes_without_form_css_attributes": "AttributeError: required_css_class"
+ },
+ "uncovered": [
+  104,
+  108
+ ],
+ "survivors": []
+}

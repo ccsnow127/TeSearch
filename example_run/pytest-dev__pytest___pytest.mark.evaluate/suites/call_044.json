@@ -1,0 +1,29 @@
+{
+ "call": 44,
+ "measured": true,
+ "error": null,
+ "size": 5,
+ "pass_rate": 1.0,
+ "green_size": 5,
+ "cov": 1.0,
+ "mut": 0.95,
+ "failing": {},
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#8",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#9",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  }
+ ]
+}

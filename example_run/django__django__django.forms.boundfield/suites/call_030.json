@@ -1,0 +1,50 @@
+{
+ "call": 30,
+ "measured": true,
+ "error": null,
+ "size": 22,
+ "pass_rate": 0.9545,
+ "green_size": 21,
+ "cov": 0.9503,
+ "mut": 0.9167,
+ "failing": {
+  "test_css_classes_with_string_iterable_and_missing_form_css_attrs": "AttributeError: 'PlainForm' object has no attribute 'add_prefix'"
+ },
+ "uncovered": [
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197
+ ],
+ "survivors": [
+  {
+   "id": "AddNot@L190#18",
+   "line": 190,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "ReplaceAndWithOr@L195#5",
+   "line": 195,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceAndWithOr@L91#0",
+   "line": 91,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L192#8",
+   "line": 192,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L225#9",
+   "line": 225,
+   "operator": "core/ReplaceOrWithAnd"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "call": 44,
+ "measured": true,
+ "error": null,
+ "size": 17,
+ "pass_rate": 0.9412,
+ "green_size": 16,
+ "cov": 0.9441,
+ "mut": 0.9,
+ "failing": {
+  "test_errors_and_css_classes": "AttributeError: required_css_class"
+ },
+ "uncovered": [
+  78,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197
+ ],
+ "survivors": [
+  {
+   "id": "AddNot@L190#18",
+   "line": 190,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "RemoveDecorator@L72#2",
+   "line": 72,
+   "operator": "core/RemoveDecorator"
+  },
+  {
+   "id": "ReplaceAndWithOr@L195#5",
+   "line": 195,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceAndWithOr@L91#0",
+   "line": 91,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L192#8",
+   "line": 192,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L225#9",
+   "line": 225,
+   "operator": "core/ReplaceOrWithAnd"
+  }
+ ]
+}

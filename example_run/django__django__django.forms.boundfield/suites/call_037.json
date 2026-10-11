@@ -1,0 +1,16 @@
+{
+ "call": 37,
+ "measured": true,
+ "error": null,
+ "size": 35,
+ "pass_rate": 0.9429,
+ "green_size": 33,
+ "cov": 1.0,
+ "mut": 1.0,
+ "failing": {
+  "test_label_tag_without_required_css_class_keeps_existing_attrs": "AttributeError: required_css_class",
+  "test_css_classes_without_form_css_attributes_only_keeps_extra_classes": "AttributeError: required_css_class"
+ },
+ "uncovered": [],
+ "survivors": []
+}

@@ -1,0 +1,100 @@
+{
+ "call": 15,
+ "measured": true,
+ "error": null,
+ "size": 51,
+ "pass_rate": 0.902,
+ "green_size": 46,
+ "cov": 1.0,
+ "mut": 0.7333,
+ "failing": {
+  "test_istrue_can_use_obj_globals_and_config_in_expression": "AttributeError: 'object' object has no attribute 'value'",
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 2 == 1",
+  "test_istrue_syntax_error_message_has_only_pointer_and_syntax_lines_after_expr": "SyntaxError: invalid syntax",
+  "test_istrue_non_syntax_error_uses_traceback_format_exception_only_for_nameerror": "AssertionError: assert 'Error evalua...not defined\\n' == 'Error evalua...s not defined'",
+  "test_istrue_non_syntax_error_with_obj_globals_can_call_pytest_fail": "assert False"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "AddNot@L53#2",
+   "line": 53,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "AddNot@L67#3",
+   "line": 67,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "AddNot@L72#4",
+   "line": 72,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "NumberReplacer@L51#0",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L51#1",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#2",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_FloorDiv@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_FloorDiv"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_LShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_LShift@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Sub@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Sub"
+  }
+ ]
+}

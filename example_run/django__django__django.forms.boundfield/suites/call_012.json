@@ -1,0 +1,33 @@
+{
+ "call": 12,
+ "measured": true,
+ "error": null,
+ "size": 77,
+ "pass_rate": 0.9221,
+ "green_size": 71,
+ "cov": 0.9938,
+ "mut": 0.9667,
+ "failing": {
+  "test_as_textarea_uses_textarea_widget": "assert '<textarea na...e)</textarea>' == \"django/forms...-first_name'}\"",
+  "test_as_textarea_with_custom_attrs": "assert '<textarea na...e)</textarea>' == \"django/forms...-first_name'}\"",
+  "test_label_tag_uses_field_label_suffix_before_form_suffix_and_preserves_existing_class": "IndexError: string index out of range",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_question_mark": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_colon": "assert '<label for=\"...ame::</label>' == '<label for=\"...Name:</label>'",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_period": "assert '<label for=\"...ame.:</label>' == '<label for=\"...Name.</label>'"
+ },
+ "uncovered": [
+  108
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

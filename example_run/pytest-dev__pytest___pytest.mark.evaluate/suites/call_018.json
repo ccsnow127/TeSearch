@@ -1,0 +1,18 @@
+{
+ "call": 18,
+ "measured": true,
+ "error": null,
+ "size": 87,
+ "pass_rate": 0.954,
+ "green_size": 83,
+ "cov": 1.0,
+ "mut": 1.0,
+ "failing": {
+  "test_istrue_can_use_obj_globals_and_config_in_expression": "AttributeError: 'object' object has no attribute 'value'",
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 7 == 6",
+  "test_istrue_syntax_error_pointer_spacing_depends_on_offset": "assert 9 == 8",
+  "test_istrue_non_syntax_error_with_obj_globals_can_call_pytest_fail": "assert False"
+ },
+ "uncovered": [],
+ "survivors": []
+}

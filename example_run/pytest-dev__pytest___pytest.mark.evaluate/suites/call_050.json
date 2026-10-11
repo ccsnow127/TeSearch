@@ -1,0 +1,15 @@
+{
+ "call": 50,
+ "measured": true,
+ "error": null,
+ "size": 22,
+ "pass_rate": 0.9545,
+ "green_size": 21,
+ "cov": 1.0,
+ "mut": 1.0,
+ "failing": {
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 7 == 6"
+ },
+ "uncovered": [],
+ "survivors": []
+}

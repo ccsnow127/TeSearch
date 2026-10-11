@@ -1,0 +1,53 @@
+{
+ "call": 39,
+ "measured": true,
+ "error": null,
+ "size": 23,
+ "pass_rate": 0.8696,
+ "green_size": 20,
+ "cov": 0.9441,
+ "mut": 0.9167,
+ "failing": {
+  "test_label_tag_custom_contents_suffix_sources_and_punctuation": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_label_tag_without_id_escapes_and_without_suffix_when_none": "AssertionError: assert 'Already??' == 'Already?'",
+  "test_css_classes_with_string_none_iterable_and_without_form_css_attributes": "TypeError: sequence item 1: expected str instance, NoneType found"
+ },
+ "uncovered": [
+  183,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceAndWithOr@L195#5",
+   "line": 195,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L192#8",
+   "line": 192,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L225#9",
+   "line": 225,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

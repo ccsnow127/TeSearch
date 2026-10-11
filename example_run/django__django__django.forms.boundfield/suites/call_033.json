@@ -1,0 +1,41 @@
+{
+ "call": 33,
+ "measured": true,
+ "error": null,
+ "size": 17,
+ "pass_rate": 0.9412,
+ "green_size": 16,
+ "cov": 0.9441,
+ "mut": 0.95,
+ "failing": {
+  "test_errors_css_classes_and_missing_form_css_attrs": "AssertionError: assert 'required error x y' in {'x y', 'y x'}"
+ },
+ "uncovered": [
+  78,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197
+ ],
+ "survivors": [
+  {
+   "id": "RemoveDecorator@L72#2",
+   "line": 72,
+   "operator": "core/RemoveDecorator"
+  },
+  {
+   "id": "ReplaceAndWithOr@L195#5",
+   "line": 195,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceAndWithOr@L91#0",
+   "line": 91,
+   "operator": "core/ReplaceAndWithOr"
+  }
+ ]
+}

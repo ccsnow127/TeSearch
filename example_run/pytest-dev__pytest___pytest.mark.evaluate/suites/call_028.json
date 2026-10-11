@@ -1,0 +1,31 @@
+{
+ "call": 28,
+ "measured": true,
+ "error": null,
+ "size": 17,
+ "pass_rate": 0.9412,
+ "green_size": 16,
+ "cov": 1.0,
+ "mut": 0.95,
+ "failing": {
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message_and_cached_result_branch": "assert 7 == 6"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#8",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#9",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  }
+ ]
+}

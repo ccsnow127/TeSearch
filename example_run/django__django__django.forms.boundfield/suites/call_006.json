@@ -1,0 +1,19 @@
+{
+ "call": 6,
+ "measured": true,
+ "error": null,
+ "size": 23,
+ "pass_rate": 0.913,
+ "green_size": 21,
+ "cov": 0.9876,
+ "mut": 1.0,
+ "failing": {
+  "test_as_text_as_textarea_and_as_hidden": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_css_classes_without_form_css_attributes": "AttributeError: required_css_class"
+ },
+ "uncovered": [
+  104,
+  108
+ ],
+ "survivors": []
+}

@@ -1,0 +1,15 @@
+{
+ "call": 9,
+ "measured": true,
+ "error": null,
+ "size": 21,
+ "pass_rate": 0.9524,
+ "green_size": 20,
+ "cov": 1.0,
+ "mut": 1.0,
+ "failing": {
+  "test_css_classes_without_form_css_attributes_and_iterable_input": "AttributeError: required_css_class"
+ },
+ "uncovered": [],
+ "survivors": []
+}

@@ -1,0 +1,45 @@
+{
+ "call": 15,
+ "measured": true,
+ "error": null,
+ "size": 17,
+ "pass_rate": 0.9412,
+ "green_size": 16,
+ "cov": 0.9503,
+ "mut": 0.9333,
+ "failing": {
+  "test_css_classes_with_string_none_and_without_form_css_attributes": "TypeError: sequence item 1: expected str instance, NoneType found"
+ },
+ "uncovered": [
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197
+ ],
+ "survivors": [
+  {
+   "id": "ReplaceAndWithOr@L195#5",
+   "line": 195,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceAndWithOr@L91#0",
+   "line": 91,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L192#8",
+   "line": 192,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L225#9",
+   "line": 225,
+   "operator": "core/ReplaceOrWithAnd"
+  }
+ ]
+}

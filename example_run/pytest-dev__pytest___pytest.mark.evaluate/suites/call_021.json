@@ -1,0 +1,52 @@
+{
+ "call": 21,
+ "measured": true,
+ "error": null,
+ "size": 44,
+ "pass_rate": 0.9545,
+ "green_size": 42,
+ "cov": 1.0,
+ "mut": 0.8833,
+ "failing": {
+  "test_istrue_can_use_config_when_obj_does_not_override_it": "AttributeError: 'object' object has no attribute 'value'",
+  "test_istrue_syntax_error_exact_message_for_open_paren": "SyntaxError: invalid syntax"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  }
+ ]
+}

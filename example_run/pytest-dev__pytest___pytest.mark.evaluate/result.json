@@ -1,0 +1,63 @@
+{
+  "module": "pytest-dev/pytest::src/_pytest/mark/evaluate.py",
+  "instance_id": "pytest-dev__pytest-7373",
+  "model": "gpt-5.4",
+  "calls": 50,
+  "measured": 50,
+  "tokens": {
+    "prompt": 422273,
+    "completion": 189647
+  },
+  "moqd": 14.35706057,
+  "grid": {
+    "bounds": [
+      6,
+      7,
+      8,
+      10,
+      12,
+      14,
+      17,
+      21,
+      25,
+      31,
+      37,
+      45,
+      55,
+      67,
+      75
+    ]
+  },
+  "delta": 0.07653656392569647,
+  "delivered": {
+    "uid": 4,
+    "call": 5,
+    "size": 7,
+    "green_size": 7,
+    "cov": 1.0,
+    "mut": 1.0,
+    "hv": 1.0,
+    "loc": 212,
+    "eval_cov": 1.0,
+    "eval_mut": 0.9722,
+    "eval_hv": 0.9722
+  },
+  "config": {
+    "sigma": 0.1,
+    "eta": 0.2,
+    "alpha_q": 0.3,
+    "c_e": 0.5,
+    "H": 0.85,
+    "gamma": 4,
+    "kappa_a": 2.5,
+    "budget": 50,
+    "n_seed": 3,
+    "search_mutants": 60,
+    "eval_mutants": 800,
+    "mutant_seed": 0,
+    "model": "gpt-5.4",
+    "temperature": 0.7,
+    "max_tokens": 16000
+  },
+  "wall_minutes": 37.0
+}

@@ -1,0 +1,40 @@
+{
+ "call": 16,
+ "measured": true,
+ "error": null,
+ "size": 65,
+ "pass_rate": 0.9231,
+ "green_size": 60,
+ "cov": 1.0,
+ "mut": 0.9333,
+ "failing": {
+  "test_istrue_can_use_obj_globals_and_config_in_expression": "AttributeError: 'object' object has no attribute 'value'",
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 7 == 6",
+  "test_istrue_non_syntax_error_with_obj_globals_can_call_pytest_fail": "assert False",
+  "test_istrue_multiple_marks_first_false_second_empty_args_true": "AssertionError: assert not True",
+  "test_istrue_syntax_error_pointer_spacing_depends_on_offset": "AssertionError: assert '        ^' == '       ^'"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "call": 34,
+ "measured": true,
+ "error": null,
+ "size": 39,
+ "pass_rate": 1.0,
+ "green_size": 39,
+ "cov": 1.0,
+ "mut": 0.95,
+ "failing": {},
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  }
+ ]
+}

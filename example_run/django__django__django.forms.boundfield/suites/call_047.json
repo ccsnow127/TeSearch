@@ -1,0 +1,36 @@
+{
+ "call": 47,
+ "measured": true,
+ "error": null,
+ "size": 49,
+ "pass_rate": 1.0,
+ "green_size": 49,
+ "cov": 0.9938,
+ "mut": 0.9333,
+ "failing": {},
+ "uncovered": [
+  177
+ ],
+ "survivors": [
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Sub@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Sub"
+  }
+ ]
+}

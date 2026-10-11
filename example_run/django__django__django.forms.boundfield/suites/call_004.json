@@ -1,0 +1,60 @@
+{
+ "call": 4,
+ "measured": true,
+ "error": null,
+ "size": 39,
+ "pass_rate": 0.8462,
+ "green_size": 33,
+ "cov": 0.9814,
+ "mut": 0.8833,
+ "failing": {
+  "test_errors_returns_existing_error_list_or_new_error_class": "assert 1 == 0",
+  "test_as_text_uses_textinput_widget": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_as_textarea_uses_textarea_widget": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_label_tag_uses_field_label_suffix_before_form_suffix_and_preserves_existing_class": "IndexError: string index out of range",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_punctuation": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_css_classes_with_iterable_extra_classes_and_missing_form_attrs": "AttributeError: required_css_class"
+ },
+ "uncovered": [
+  104,
+  108,
+  177
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "RemoveDecorator@L12#0",
+   "line": 12,
+   "operator": "core/RemoveDecorator"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L33#0",
+   "line": 33,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Sub@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Sub"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

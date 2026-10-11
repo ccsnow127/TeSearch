@@ -1,0 +1,61 @@
+{
+ "call": 5,
+ "measured": true,
+ "error": null,
+ "size": 45,
+ "pass_rate": 0.8444,
+ "green_size": 38,
+ "cov": 0.9814,
+ "mut": 0.8833,
+ "failing": {
+  "test_errors_returns_existing_error_list_or_new_error_class": "assert 1 == 0",
+  "test_as_text_uses_textinput_widget": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_as_textarea_uses_textarea_widget": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_label_tag_uses_field_label_suffix_before_form_suffix_and_preserves_existing_class": "IndexError: string index out of range",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_question_mark": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_colon": "assert '<label for=\"...ame::</label>' == '<label for=\"...Name:</label>'",
+  "test_label_tag_with_widget_id_for_label_empty_omits_for_and_keeps_required_class": "assert '<label class...Name:</label>' == '<label class...Name:</label>'"
+ },
+ "uncovered": [
+  104,
+  108,
+  177
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "RemoveDecorator@L12#0",
+   "line": 12,
+   "operator": "core/RemoveDecorator"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L33#0",
+   "line": 33,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Sub@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Sub"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

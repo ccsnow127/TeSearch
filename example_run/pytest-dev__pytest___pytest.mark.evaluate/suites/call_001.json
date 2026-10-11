@@ -1,0 +1,194 @@
+{
+ "call": 1,
+ "measured": true,
+ "error": null,
+ "size": 36,
+ "pass_rate": 0.6111,
+ "green_size": 22,
+ "cov": 0.9011,
+ "mut": 0.4833,
+ "failing": {
+  "test_getglobals_contains_standard_entries": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_no_marks_is_false": "AttributeError: 'MarkEvaluator' object has no attribute 'result'",
+  "test_istrue_string_expression_true_sets_reason_and_expr": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_string_expression_false_returns_false_and_tracks_expr": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_uses_condition_kwarg_instead_of_args": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_multiple_expressions_stops_at_first_true": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_multiple_marks_uses_first_true_mark": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_string_expression_can_access_config": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_caches_false_result": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_caches_true_result": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_records_marks_list": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_sets_current_mark_during_iteration": "AttributeError: 'NoneType' object has no attribute '__globals__'",
+  "test_istrue_syntax_error_translates_to_failed_and_marks_invalid": "assert 'SyntaxError: invalid syntax' in \"Error evaluating 'skipif' expression\\n    (\\nAttributeError: 'NoneType' object ",
+  "test_istrue_name_error_translates_to_failed_and_marks_invalid": "assert 'NameError' in \"Error evaluating 'skipif' expression\\n    does_not_exist_name\\nAttributeError: 'NoneType' object "
+ },
+ "uncovered": [
+  49,
+  50,
+  51,
+  53,
+  54,
+  55,
+  57,
+  58,
+  84
+ ],
+ "survivors": [
+  {
+   "id": "AddNot@L53#2",
+   "line": 53,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "AddNot@L67#3",
+   "line": 67,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "AddNot@L72#4",
+   "line": 72,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "AddNot@L81#6",
+   "line": 81,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "ExceptionReplacer@L49#0",
+   "line": 49,
+   "operator": "core/ExceptionReplacer"
+  },
+  {
+   "id": "NumberReplacer@L51#0",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L51#1",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#2",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#8",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#9",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_FloorDiv@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_FloorDiv"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_LShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mod_BitOr@L61#0",
+   "line": 61,
+   "operator": "core/ReplaceBinaryOperator_Mod_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mod_FloorDiv@L61#0",
+   "line": 61,
+   "operator": "core/ReplaceBinaryOperator_Mod_FloorDiv"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mod_Mul@L61#0",
+   "line": 61,
+   "operator": "core/ReplaceBinaryOperator_Mod_Mul"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mod_Sub@L61#0",
+   "line": 61,
+   "operator": "core/ReplaceBinaryOperator_Mod_Sub"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Add@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Add"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitAnd@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitAnd"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_LShift@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Sub@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Sub"
+  }
+ ]
+}

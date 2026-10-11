@@ -1,0 +1,31 @@
+{
+ "call": 24,
+ "measured": true,
+ "error": null,
+ "size": 78,
+ "pass_rate": 0.9231,
+ "green_size": 72,
+ "cov": 1.0,
+ "mut": 0.9667,
+ "failing": {
+  "test_label_tag_uses_field_label_suffix_before_form_suffix_and_preserves_existing_class": "IndexError: string index out of range",
+  "test_label_tag_does_not_append_suffix_for_question_mark": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_label_tag_does_not_append_suffix_for_colon": "assert '<label for=\"...ame::</label>' == '<label for=\"...Name:</label>'",
+  "test_label_tag_does_not_append_suffix_for_period": "assert '<label for=\"...ame.:</label>' == '<label for=\"...Name.</label>'",
+  "test_label_tag_does_not_append_suffix_for_exclamation_mark": "assert '<label for=\"...ame!:</label>' == '<label for=\"...Name!</label>'",
+  "test_label_tag_without_id_still_skips_suffix_for_punctuation": "AssertionError: assert '&lt;b&gt;X&lt;/b&gt;?:' == '&lt;b&gt;X&lt;/b&gt;?'"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

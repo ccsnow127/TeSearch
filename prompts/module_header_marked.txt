@@ -1,0 +1,1 @@
+[MODULE SOURCE - annotated with what the LAST (best) suite below still misses: `# <-- NOT COVERED YET` marks lines none of its tests execute; `# <-- SURVIVING MUTANT: <op>` marks lines where that mutation survives its assertions. Cover those lines, and assert exact values/branches around each surviving mutant so the mutation would fail]

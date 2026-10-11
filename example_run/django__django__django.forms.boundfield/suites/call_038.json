@@ -1,0 +1,29 @@
+{
+ "call": 38,
+ "measured": true,
+ "error": null,
+ "size": 16,
+ "pass_rate": 0.875,
+ "green_size": 14,
+ "cov": 0.9938,
+ "mut": 0.9667,
+ "failing": {
+  "test_label_tag_custom_contents_punctuation_and_field_suffix_override": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_label_tag_without_id_and_without_for_attribute": "AssertionError: assert 'Already??' == 'Already?'"
+ },
+ "uncovered": [
+  183
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

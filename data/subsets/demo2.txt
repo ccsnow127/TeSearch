@@ -1,0 +1,9 @@
+# The two modules of the quick start.
+#
+# Both reach top quality and then keep shrinking: the archive holds a front per
+# size niche, so a small suite competes only against suites of its own size, and
+# delivery hands back the smallest of the suites that tie for best quality.
+#
+# instance_id                         module                                  run time
+pytest-dev__pytest-7373               # src/_pytest/mark/evaluate.py           ~37 min
+django__django-14534                  # django/forms/boundfield.py             ~69 min

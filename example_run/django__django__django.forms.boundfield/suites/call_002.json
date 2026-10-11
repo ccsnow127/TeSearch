@@ -1,0 +1,125 @@
+{
+ "call": 2,
+ "measured": true,
+ "error": null,
+ "size": 30,
+ "pass_rate": 0.7667,
+ "green_size": 23,
+ "cov": 0.8634,
+ "mut": 0.7333,
+ "failing": {
+  "test_errors_returns_existing_errors_or_default_error_class": "assert 1 == 0",
+  "test_as_text_as_textarea_and_as_hidden": "AttributeError: 'str' object has no attribute 'render'",
+  "test_label_tag_builds_label_with_suffix_for_and_required_class": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_uses_field_label_suffix_over_form_suffix_and_preserves_existing_class": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_does_not_append_suffix_after_punctuation": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_without_id_returns_escaped_contents_only": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_css_classes_with_no_extra_and_no_flags": "AttributeError: required_css_class"
+ },
+ "uncovered": [
+  104,
+  108,
+  159,
+  160,
+  161,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  179,
+  180,
+  181,
+  183,
+  184
+ ],
+ "survivors": [
+  {
+   "id": "AddNot@L170#13",
+   "line": 170,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "AddNot@L180#17",
+   "line": 180,
+   "operator": "core/AddNot"
+  },
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "RemoveDecorator@L12#0",
+   "line": 12,
+   "operator": "core/RemoveDecorator"
+  },
+  {
+   "id": "ReplaceAndWithOr@L195#5",
+   "line": 195,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceAndWithOr@L91#0",
+   "line": 91,
+   "operator": "core/ReplaceAndWithOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L33#0",
+   "line": 33,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mul@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mul"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Sub@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Sub"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L159#4",
+   "line": 159,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L175#7",
+   "line": 175,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L192#8",
+   "line": 192,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L225#9",
+   "line": 225,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

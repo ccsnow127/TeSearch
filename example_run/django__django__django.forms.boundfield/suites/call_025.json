@@ -1,0 +1,15 @@
+{
+ "call": 25,
+ "measured": true,
+ "error": null,
+ "size": 67,
+ "pass_rate": 0.9851,
+ "green_size": 66,
+ "cov": 1.0,
+ "mut": 1.0,
+ "failing": {
+  "test_widget_type_for_base_widget_becomes_empty_string": "AssertionError: assert 'dummy' == ''"
+ },
+ "uncovered": [],
+ "survivors": []
+}

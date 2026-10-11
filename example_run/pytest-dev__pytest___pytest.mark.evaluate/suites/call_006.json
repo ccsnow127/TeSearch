@@ -1,0 +1,49 @@
+{
+ "call": 6,
+ "measured": true,
+ "error": null,
+ "size": 9,
+ "pass_rate": 1.0,
+ "green_size": 9,
+ "cov": 1.0,
+ "mut": 0.8833,
+ "failing": {},
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  }
+ ]
+}

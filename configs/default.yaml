@@ -1,0 +1,29 @@
+# TeSearch default configuration. Override on the CLI with --model / --budget, or
+# point --config at another file. Every key maps to a field of tesearch.config.Config.
+
+landing_kernel:
+  sigma: 0.10        # spread of realized suite size around the request, in log units
+  eta: 0.2           # LMS step for the per-module size bias
+
+acquisition:
+  alpha_q: 0.3       # smoothing rate of a niche's value estimate
+  c_e: 0.5           # weight of the exploration bonus
+  H: 0.85            # quality gate: size pressure starts once best hv exceeds it
+
+grid:
+  gamma: 4           # niches the grid extends above the seed anchor
+  kappa_a: 2.5       # a request stays within this factor of the niche centre
+
+budget:
+  budget: 50         # LLM calls per module, seeds included
+  n_seed: 3          # opening generations made without naming a size
+
+mutants:
+  search_mutants: 60 # mutants the search is scored against
+  eval_mutants: 800  # held-out mutants, used only on the delivered suite
+  mutant_seed: 0     # makes the split between the two sets reproducible
+
+llm:
+  model: gpt-5.4
+  temperature: 0.7
+  max_tokens: 16000

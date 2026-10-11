@@ -1,0 +1,35 @@
+{
+ "call": 17,
+ "measured": true,
+ "error": null,
+ "size": 69,
+ "pass_rate": 0.9275,
+ "green_size": 64,
+ "cov": 1.0,
+ "mut": 0.95,
+ "failing": {
+  "test_istrue_can_use_obj_globals_and_config_in_expression": "AttributeError: 'object' object has no attribute 'value'",
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 7 == 6",
+  "test_istrue_syntax_error_pointer_spacing_depends_on_offset": "assert 9 == 8",
+  "test_istrue_syntax_error_pointer_line_for_two_char_expr_has_exact_length": "assert 3 == 2",
+  "test_istrue_syntax_error_pointer_line_for_longer_expr_has_exact_length": "assert 6 == 5"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#8",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#9",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  }
+ ]
+}

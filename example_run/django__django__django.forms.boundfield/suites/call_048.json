@@ -1,0 +1,29 @@
+{
+ "call": 48,
+ "measured": true,
+ "error": null,
+ "size": 17,
+ "pass_rate": 0.8824,
+ "green_size": 15,
+ "cov": 0.9938,
+ "mut": 0.9667,
+ "failing": {
+  "test_label_tag_custom_contents_suffix_punctuation_and_no_id_escape": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'",
+  "test_css_classes_without_form_css_attributes_and_iterable_input": "AssertionError: assert 'y x required error' in {'x y', 'y x'}"
+ },
+ "uncovered": [
+  183
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "call": 12,
+ "measured": true,
+ "error": null,
+ "size": 23,
+ "pass_rate": 0.9565,
+ "green_size": 22,
+ "cov": 0.967,
+ "mut": 0.6333,
+ "failing": {
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 7 == 6"
+ },
+ "uncovered": [
+  53,
+  54,
+  55
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L51#0",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L51#1",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#2",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#8",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#9",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_FloorDiv@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_FloorDiv"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_LShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mul@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Mul"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_LShift@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Sub@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Sub"
+  }
+ ]
+}

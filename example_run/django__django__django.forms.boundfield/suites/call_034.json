@@ -1,0 +1,27 @@
+{
+ "call": 34,
+ "measured": true,
+ "error": null,
+ "size": 43,
+ "pass_rate": 0.9535,
+ "green_size": 41,
+ "cov": 1.0,
+ "mut": 0.9667,
+ "failing": {
+  "test_label_tag_uses_field_label_suffix_before_form_suffix_and_preserves_existing_class": "IndexError: string index out of range",
+  "test_label_tag_punctuation_and_suffix_rules": "assert '<label for=\"...ame!:</label>' == '<label for=\"...Name!</label>'"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

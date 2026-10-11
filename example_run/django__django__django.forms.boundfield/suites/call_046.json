@@ -1,0 +1,50 @@
+{
+ "call": 46,
+ "measured": true,
+ "error": null,
+ "size": 31,
+ "pass_rate": 0.9355,
+ "green_size": 29,
+ "cov": 0.9876,
+ "mut": 0.9,
+ "failing": {
+  "test_label_tag_required_classes_and_suffix_sources": "IndexError: string index out of range",
+  "test_label_tag_punctuation_empty_override_and_missing_id_behaviors": "assert '<label for=\"...ame?:</label>' == '<label for=\"...Name?</label>'"
+ },
+ "uncovered": [
+  177,
+  183
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L33#0",
+   "line": 33,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Sub@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Sub"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

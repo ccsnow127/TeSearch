@@ -1,0 +1,57 @@
+{
+  "module": "django/django::django/forms/boundfield.py",
+  "instance_id": "django__django-14534",
+  "model": "gpt-5.4",
+  "calls": 50,
+  "measured": 50,
+  "tokens": {
+    "prompt": 663354,
+    "completion": 295309
+  },
+  "moqd": 9.9543,
+  "grid": {
+    "bounds": [
+      20,
+      21,
+      26,
+      31,
+      38,
+      46,
+      56,
+      69,
+      76
+    ]
+  },
+  "delta": 0.2139796347611983,
+  "delivered": {
+    "uid": 8,
+    "call": 9,
+    "size": 21,
+    "green_size": 20,
+    "cov": 1.0,
+    "mut": 1.0,
+    "hv": 1.0,
+    "loc": 524,
+    "eval_cov": 1.0,
+    "eval_mut": 1.0,
+    "eval_hv": 1.0
+  },
+  "config": {
+    "sigma": 0.1,
+    "eta": 0.2,
+    "alpha_q": 0.3,
+    "c_e": 0.5,
+    "H": 0.85,
+    "gamma": 4,
+    "kappa_a": 2.5,
+    "budget": 50,
+    "n_seed": 3,
+    "search_mutants": 60,
+    "eval_mutants": 800,
+    "mutant_seed": 0,
+    "model": "gpt-5.4",
+    "temperature": 0.7,
+    "max_tokens": 16000
+  },
+  "wall_minutes": 68.6
+}

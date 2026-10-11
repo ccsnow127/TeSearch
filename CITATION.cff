@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use TeSearch, please cite the paper below."
+title: "TeSearch"
+type: software
+repository-code: "https://github.com/ccsnow127/TeSearch"
+license: MIT
+authors:
+  - family-names: Cheng
+    given-names: Yutong
+  - family-names: Cheng
+    given-names: Wei
+  - family-names: Yu
+    given-names: Wenchao
+  - family-names: Zhou
+    given-names: Dawei
+  - family-names: Chen
+    given-names: Haifeng
+preferred-citation:
+  type: conference-paper
+  title: "Small but Mighty: Test Suites as Improvement Signals for Self-Evolving Agents"
+  authors:
+    - family-names: Cheng
+      given-names: Yutong
+    - family-names: Cheng
+      given-names: Wei
+    - family-names: Yu
+      given-names: Wenchao
+    - family-names: Zhou
+      given-names: Dawei
+    - family-names: Chen
+      given-names: Haifeng
+  collection-title: "NeurIPS 2026 Workshop on Self-Evolving Diversity-Driven Search for Robust AI Systems (EvoRobust)"
+  year: 2026

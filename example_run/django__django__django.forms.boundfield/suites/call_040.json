@@ -1,0 +1,23 @@
+{
+ "call": 40,
+ "measured": true,
+ "error": null,
+ "size": 124,
+ "pass_rate": 0.9919,
+ "green_size": 123,
+ "cov": 0.9938,
+ "mut": 0.9833,
+ "failing": {
+  "test_boundfield_html_api_and_str_safe": "AssertionError: assert 2 == 1"
+ },
+ "uncovered": [
+  34
+ ],
+ "survivors": [
+  {
+   "id": "RemoveDecorator@L12#0",
+   "line": 12,
+   "operator": "core/RemoveDecorator"
+  }
+ ]
+}

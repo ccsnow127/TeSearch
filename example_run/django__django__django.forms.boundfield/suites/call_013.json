@@ -1,0 +1,19 @@
+{
+ "call": 13,
+ "measured": true,
+ "error": null,
+ "size": 67,
+ "pass_rate": 0.9552,
+ "green_size": 64,
+ "cov": 0.9938,
+ "mut": 1.0,
+ "failing": {
+  "test_as_text_uses_textinput_widget": "assert \"django/forms...-first_name'}\" == '<input type=...-first_name\">'",
+  "test_as_text_with_attrs_and_only_initial": "assert \"django/forms...-first_name'}\" == '<input type=...-first_name\">'",
+  "test_as_hidden_can_use_real_hiddeninput_widget": "assert \"django/forms...-first_name'}\" == '<input type=...-first_name\">'"
+ },
+ "uncovered": [
+  104
+ ],
+ "survivors": []
+}

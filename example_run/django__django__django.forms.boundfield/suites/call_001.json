@@ -1,0 +1,99 @@
+{
+ "call": 1,
+ "measured": true,
+ "error": null,
+ "size": 35,
+ "pass_rate": 0.8286,
+ "green_size": 29,
+ "cov": 0.8634,
+ "mut": 0.8167,
+ "failing": {
+  "test_as_text_as_textarea_and_as_hidden_use_expected_widgets": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_label_tag_builds_label_with_for_suffix_and_required_class": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_uses_custom_contents_attrs_and_label_suffix_override": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_does_not_append_suffix_when_label_ends_with_punctuation": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_without_id_returns_escaped_contents": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe",
+  "test_label_tag_uses_field_label_suffix_before_form_suffix": "django.core.exceptions.ImproperlyConfigured: Requested setting USE_I18N, but settings are not configured. You must eithe"
+ },
+ "uncovered": [
+  104,
+  108,
+  159,
+  160,
+  161,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  179,
+  180,
+  181,
+  183,
+  184
+ ],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L166#1",
+   "line": 166,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "RemoveDecorator@L12#0",
+   "line": 12,
+   "operator": "core/RemoveDecorator"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mod@L33#0",
+   "line": 33,
+   "operator": "core/ReplaceBinaryOperator_Add_Mod"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Mul@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Mul"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_RShift@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_RShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Sub@L177#1",
+   "line": 177,
+   "operator": "core/ReplaceBinaryOperator_Add_Sub"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L159#4",
+   "line": 159,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceOrWithAnd@L175#7",
+   "line": 175,
+   "operator": "core/ReplaceOrWithAnd"
+  },
+  {
+   "id": "ReplaceUnaryOperator_USub_UAdd@L166#0",
+   "line": 166,
+   "operator": "core/ReplaceUnaryOperator_USub_UAdd"
+  }
+ ]
+}

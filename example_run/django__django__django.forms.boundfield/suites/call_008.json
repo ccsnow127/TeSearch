@@ -1,0 +1,19 @@
+{
+ "call": 8,
+ "measured": true,
+ "error": null,
+ "size": 26,
+ "pass_rate": 0.9231,
+ "green_size": 24,
+ "cov": 0.9876,
+ "mut": 1.0,
+ "failing": {
+  "test_as_text_and_as_textarea_render_real_widgets": "AttributeError: 'DummyRenderer' object has no attribute 'render'",
+  "test_as_hidden_uses_hidden_widget_factory": "AttributeError: 'DummyRenderer' object has no attribute 'render'"
+ },
+ "uncovered": [
+  104,
+  108
+ ],
+ "survivors": []
+}

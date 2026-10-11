@@ -1,0 +1,128 @@
+{
+ "call": 19,
+ "measured": true,
+ "error": null,
+ "size": 101,
+ "pass_rate": 0.9703,
+ "green_size": 98,
+ "cov": 1.0,
+ "mut": 0.6333,
+ "failing": {
+  "test_istrue_rewraps_syntax_error_with_exact_pointer_message": "assert 2 == 1",
+  "test_istrue_syntax_error_message_has_only_pointer_and_syntax_lines_after_expr": "SyntaxError: invalid syntax",
+  "test_istrue_syntax_error_pointer_spacing_depends_on_offset": "AssertionError: assert '        ^' == '       ^'"
+ },
+ "uncovered": [],
+ "survivors": [
+  {
+   "id": "NumberReplacer@L51#0",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L51#1",
+   "line": 51,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#2",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L53#3",
+   "line": 53,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#8",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "NumberReplacer@L57#9",
+   "line": 57,
+   "operator": "core/NumberReplacer"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitOr@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L123#2",
+   "line": 123,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_Div@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_FloorDiv@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_FloorDiv"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Add_LShift@L54#1",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Add_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Add@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Add"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitAnd@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitAnd"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitOr@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitOr"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_BitXor@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_BitXor"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Div@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Div"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_LShift@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_LShift"
+  },
+  {
+   "id": "ReplaceBinaryOperator_Mul_Sub@L54#0",
+   "line": 54,
+   "operator": "core/ReplaceBinaryOperator_Mul_Sub"
+  }
+ ]
+}
